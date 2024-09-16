@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-<!-- 	-------- TO-DO: ADD META TAG AND NAME HERE -------- -->
+	<meta name="author" content="Doralee Mendez">
 	<title>Form Activity Solution File</title>
-<!-- 	-------- TO-DO: ADD LINK TO CSS HERE -------- -->
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<a href="#main-content" id="skipLink">Skip to main content</a>
@@ -26,7 +26,59 @@
 			<h2>Coding Semantic and Accessible Forms!</h2>
 			<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip links for your website. Forms can be a source of frustration for users, whether they specifically need help with accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code this in class, and please ask questions as they arise. Let's make a form!</p>
 
-<!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
+			<h2>Coding Semantic and Accessible Forms!</h2>
+			<fieldset>
+                <label for="fullname">Full Name</label><br>
+               <input id="fullname" type="text"/>
+                   </div>         
+                     </fieldset><p>
+                 <p>
+                 <fieldset>
+                   <label for="email">E-mail</label>
+                   <br>
+                   <input id="email" type="text"/>
+                   </div>         
+                 </fieldset></p>
+                 <p>
+                 <fieldset>
+                 <label for="tel">Phone</label>
+                   <br>
+                   <input id="phone" type="text" />
+                   </div>         
+                 </fieldset>
+              </p>
+                 <p>
+                 <fieldset>
+                   <legend>Preferred Contact Method</legend>
+                 <div>
+                     <input type="radio" id="tel" name="tel" value="tel" />
+                     <label for="tel">Phone</label>
+                   </div>
+                     <div>
+                      <input type="radio" id="Email" name="email" value="email" />
+                     <label for="email">E-mail</label>
+                   </div>
+                 </fieldset></p>
+                 <p>
+                  <fieldset>
+                  
+                  <label for="tel">What state are you from?</label>
+                    <br>
+                    <input id="resstate" name="resstate" type="text" list="states" />
+             <datalist id="states">
+               <select>
+                 <option value="Alabama"></option><option value="Alaska"></option><option value="Arizona"></option><option value="Arkansas"></option><option value="California"></option><option value="Colorado"></option><option value="Connecticut"></option><option value="Delaware"></option><option value="Florida"></option><option value="Georgia"></option><option value="Hawaii"></option><option value="Idaho"></option><option value="Illinois"></option><option value="Indiana"></option><option value="Iowa"></option><option value="Kansas"></option><option value="Kentucky"></option><option value="Louisiana"></option><option value="Maine"></option><option value="Maryland"></option><option value="Massachusetts"></option><option value="Michigan"></option><option value="Minnesota"></option><option value="Mississippi"></option><option value="Missouri"></option><option value="Montana"></option><option value="Nebraska"></option><option value="Nevada"></option><option value="New Hampshire"></option><option value="New Jersey"></option><option value="New Mexico"></option><option value="New York"></option><option value="North Carolina"></option><option value="North Dakota"></option><option value="Ohio"></option><option value="Oklahoma"></option><option value="Oregon"></option><option value="Pennsylvania"></option><option value="Rhode Island"></option><option value="South Carolina"></option><option value="South Dakota"></option><option value="Tennessee"></option><option value="Texas"></option><option value="Utah"></option><option value="Vermont"></option><option value="Virginia"></option><option value="Washington"></option><option value="West Virginia"></option><option value="Wisconsin"></option><option value="Wyoming"></option>
+                    </div>         
+                  </fieldset></p>
+                 <fieldset>
+                   <div>  
+                     <label for="comment">Leave a comment</label>
+                     <br>
+                 <textarea id="comment" type="text"></textarea>
+                   </div>         
+  </fieldset></P>
+  <input type="submit" value="Submit Form" />
+
 		</article>
 	</main>
 	<footer>
